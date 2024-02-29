@@ -52,7 +52,6 @@ test('PUT /products/:id actualiza el categoryId de un producto', async () => {
 })
 
 
-
 test('DELETE /products/:id', async () => {
     const res = await request(app)
         .delete(`/products/${id}`)
