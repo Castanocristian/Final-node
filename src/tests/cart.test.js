@@ -5,8 +5,6 @@ require('../models');
 let id;
 let token;
 
-
-
 beforeAll(async () => {
     const user = {
         email: "test@gmail.com",
