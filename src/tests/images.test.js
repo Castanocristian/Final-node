@@ -12,3 +12,4 @@ test('GET /images taera todas las images', async () => {
     expect(res.body).toBeInstanceOf(Array);
 })
 
+
